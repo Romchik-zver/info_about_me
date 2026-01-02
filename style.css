@@ -1,0 +1,172 @@
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(90deg, #000000, #000000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.hui1 {
+  font-family: "Oswald";
+  font-size: 1.5rem;
+  text-align: center;
+  background: linear-gradient(90deg, #000000, #000000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+.container {
+  max-width: 600px;
+}
+
+h2 {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.list-group-item {
+  font-size: 1.2rem;
+  color: #000000;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+}
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer .list-group-item {
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer .list-group-item:hover {
+  background-color: #f7f7f7;
+  color: #fff;
+}
+
+h5.text-center.mb-3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  background-color: #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 10px;
+}
+.btn1 {
+  background-color: rgb(0, 0, 0); /* Исходный цвет кнопки */
+  width: 100%; /* Кнопки занимают всю ширину родителя */
+  max-width: 200px; /* Ограничение максимальной ширины */
+  color: rgb(255, 255, 255); /* Цвет текста */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход */
+}
+
+.btn1:hover {
+  background-color: #ffffff; /* Цвет при наведении */
+  color: #000000; /* Цвет текста при наведении */
+}
+
+.btn1:active {
+  background-color: #000000; /* Цвет при клике */
+  color: #ffffff; /* Цвет текста при клике */
+  text-decoration: none;
+}
+
+.btn1:focus {
+  outline: none; /* Убираем стандартную обводку */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Добавляем кастомную обводку */
+}
+
+.btn1:visited {
+  background-color: rgb(0, 0, 0); /* Цвет для посещённых ссылок */
+  color: rgb(255, 255, 255);
+}
+
+.btn1:disabled {
+  background-color: #ccc; /* Цвет для отключённых кнопок */
+  color: #666;
+  cursor: not-allowed;
+}
+footer .btn1:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.rounded-img {
+  width: 100%; /* Изображение занимает всю ширину родителя */
+  max-width: 400px; /* Ограничение максимальной ширины */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  border-radius: 50%; /* Полностью круглое изображение */
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.8);
+  margin-bottom: 1em;
+  object-fit: cover; /* Убедитесь, что изображение не искажается */
+}
+.col-lg-6 {
+  text-align: center; /* Центрирование содержимого */
+}
+
+#Random{
+  background-image: url(Unofficial_JavaScript_logo_2.svg.png);
+
+  background-size: contain;
+  /* Размещаем изображение по центру */
+  background-position: center;
+  /* Запрещаем повторение изображения */
+  background-repeat: no-repeat;
+  color: white;
+}
+#Rust{
+  background-image: url(Rust_programming_language_black_logo.svg.png);
+   background-size: contain;
+  /* Размещаем изображение по центру */
+  background-position: center;
+  /* Запрещаем повторение изображения */
+  background-repeat: no-repeat;
+  color: red;
+
+}
+#Telegram{
+  background-image: url(typescript.png);
+   background-size: contain;
+  /* Размещаем изображение по центру */
+  background-position: center;
+  /* Запрещаем повторение изображения */
+  background-repeat: no-repeat;
+
+  color:rgb(0, 0, 0);
+}
+
